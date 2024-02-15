@@ -58,3 +58,8 @@ body{
 #home-icon {
   margin-right: auto; 
 } */
+
+.galleria{
+  display: flex;
+  justify-items: center;
+}

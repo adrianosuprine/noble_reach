@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 
 function Footer() {
   return (
@@ -8,7 +8,7 @@ function Footer() {
           
           <div className="bg-white shadow-md rounded-lg overflow-hidden">
             <div className="p-4">
-             
+            <h3 className="text-lg font-semibold mb-2">Abou Us</h3>
               <p>
                 We serve as a bridge between donors and charitable
                 organizations. We empower donors to make informed contributions
@@ -36,9 +36,9 @@ function Footer() {
             <div className="p-4">
               <h3 className="text-lg font-semibold mb-2">Donation</h3>
               
-              <p>VISA</p>
-              <p>PAYPAL</p>
-              <p>MPESA</p>
+              <p className="flex"><img src="src/assets/visa.png"/></p>
+              <p><img src="/src/assets/paypal.png"/></p>
+              <p><img src="/src/assets/mpesa.png"/></p>
             </div>
           </div>
 
