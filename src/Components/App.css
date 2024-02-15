@@ -1,0 +1,37 @@
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+.card{
+    border:0px solid black;
+    box-shadow: 0 0 5px black;
+    width:170%;
+    height: 140%;
+    flex: 1;
+    margin:10px;
+    /* box-sizing: content-box; */
+    
+}
+
+.card-title, .description {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+
+}
+.card-title {
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 20px;
+
+}
+.description {
+    font-size: 1.5rem;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    margin-bottom: 20px;
+
+}

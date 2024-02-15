@@ -1,0 +1,25 @@
+{
+"programs":[
+    {
+      "name": "Clean Water Initiative",
+      "description": "Providing clean and safe drinking water to communities in need.",
+      "photo": "https://salesianmissions.org/wp-content/uploads/2017/03/water_day_salesian_missions_lufubu_zambia_2017-1.jpg"
+    },
+    {
+      "name": "Education for All",
+      "description": "Supporting educational programs to ensure every child has access to quality education.",
+      "photo": "https://www.kooleshshahfoundation.org/wp-content/uploads/2021/11/Education-FOr-All-students.jpg"
+    },
+    {
+      "name": "Food Security Project",
+      "description": "Addressing hunger and malnutrition by providing nutritious food to families.",
+      "photo": "https://www.globalgiving.org/pfil/32744/pict_large.jpg"
+    },
+    {
+      "name": "Healthcare Outreach",
+      "description": "Delivering medical services and supplies to underserved communities.",
+      "photo": "https://www.icrc.org/en/doc/assets/images/photos/gallery/2012-05-16-south-sudan/07-south-sudan-health-l1000143.jpg"
+    }
+  ]
+}
+  
