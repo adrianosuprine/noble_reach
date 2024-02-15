@@ -1,17 +1,36 @@
-import { useState } from 'react'
-import { BrowserRouter } from 'react-router-dom'
-// import './App.css'
+// App.jsx
+import React, { useState } from 'react';
+import VolunteerForm from './VolunteerForm';
 
-function App() {
-  
-  // All routes placed here.
+const App = () => {
+  const [showVolunteerForm, setShowVolunteerForm] = useState(false);
+
+  const handleVolunteerClick = () => {
+    setShowVolunteerForm(true);
+  };
+
+  const handleCloseForm = () => {
+    setShowVolunteerForm(false);
+  };
+
+  const handleVolunteerFormSubmit = (formData) => {
+    // Handle the volunteer form submission (e.g., send data to the server)
+    console.log('Volunteer form submitted:', formData);
+    // Close the form
+    setShowVolunteerForm(false);
+  };
 
   return (
-    <>
-   <h1>Hello Team B.</h1>
-   
-    </>
-  )
-}
+    <div>
+      <h1>Your Application</h1>
 
-export default App
+      <button onClick={handleVolunteerClick}>Volunteer</button>
+
+      {showVolunteerForm && (
+        <VolunteerForm onClose={handleCloseForm} onSubmit={handleVolunteerFormSubmit} />
+      )}
+    </div>
+  );
+};
+
+export default App;
