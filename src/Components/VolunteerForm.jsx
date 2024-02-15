@@ -1,4 +1,3 @@
-// VolunteerForm.jsx
 import React, { useState } from 'react';
 
 const VolunteerForm = ({ onClose, onSubmit }) => {

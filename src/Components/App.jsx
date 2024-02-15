@@ -1,6 +1,7 @@
 // App.jsx
 import React, { useState } from 'react';
 import VolunteerForm from './VolunteerForm';
+import CommentForm from './CommentForm';
 
 const App = () => {
   const [showVolunteerForm, setShowVolunteerForm] = useState(false);
@@ -14,9 +15,7 @@ const App = () => {
   };
 
   const handleVolunteerFormSubmit = (formData) => {
-    // Handle the volunteer form submission (e.g., send data to the server)
     console.log('Volunteer form submitted:', formData);
-    // Close the form
     setShowVolunteerForm(false);
   };
 
@@ -29,6 +28,8 @@ const App = () => {
       {showVolunteerForm && (
         <VolunteerForm onClose={handleCloseForm} onSubmit={handleVolunteerFormSubmit} />
       )}
+
+      <CommentForm />
     </div>
   );
 };
