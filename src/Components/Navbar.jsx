@@ -46,7 +46,7 @@ function Navbar() {
                 HOME
               </a>
               <a
-                href="#"
+                href="programs"
                 className="text-gray-800 py-2 px-4 block border-b-2 border-transparent hover:border-blue-500 hover:text-blue-500"
               >
                 WHY DONATE
@@ -58,19 +58,14 @@ function Navbar() {
                 VOLUNTEER
               </a>
               <a
-                href="#"
+                href="donate"
                 className="text-gray-800 py-2 px-4 block border-b-2 border-transparent hover:border-blue-500 hover:text-blue-500"
               >
-                GALLERY
+                DONATE
               </a>
+             
               <a
-                href="#"
-                className="text-gray-800 py-2 px-4 block border-b-2 border-transparent hover:border-blue-500 hover:text-blue-500"
-              >
-                COMMMENTS
-              </a>
-              <a
-                href="#"
+                href="calendar&events"
                 className="text-gray-800 py-2 px-4 block border-b-2 border-transparent hover:border-blue-500 hover:text-blue-500"
               >
                 CALENDAR EVENTS
