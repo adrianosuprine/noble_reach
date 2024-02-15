@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { BrowserRouter } from 'react-router-dom'
 // import './App.css'
 import Integration from './Intergration'
+import LandingPage from './LandingPage'
 
 function App() {
   
@@ -9,12 +10,14 @@ function App() {
 
   return (
     <>
+    <Integration/>
    <h1 className='text-blue-700 font-bold  text-center'>Hello Team B.</h1>  
    <h1 className="text-blue-700 font-bold  text-center text-normal">
         Welcome to Tailwind CSS Installation Tutorial.
       </h1>
 
-       <div className="flex justify-center pt-20">
+       <LandingPage className="flex justify-center pt-20">
+        
         <div className="max-w-sm bg-white border border-gray-200 rounded-lg">
            <a href="https://tailwindcss.com/">
              <img
@@ -47,10 +50,11 @@ function App() {
               </svg>
             </a>
           </div>
+          
         </div>
-        <Integration/>
-      </div>
-
+        
+        </LandingPage>
+      <Integration/>
     </>
   )
 }
