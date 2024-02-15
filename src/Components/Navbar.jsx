@@ -8,12 +8,12 @@ function Navbar() {
   };
 
   return (
-    <div className="bg-white">
+    <div className="bg-gray-200">
       <div className="container mx-auto">
         <div className="flex justify-between items-center py-4 px-6 md:px-0">
           <div className="flex items-center">
             <a href="#" className="text-xl font-bold text-gray-800">
-              NOBLE⌒REACH
+              <i>NOBLE⌒REACH</i>
             </a>
           </div>
           <div className="block md:hidden">

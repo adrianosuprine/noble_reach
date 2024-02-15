@@ -2,6 +2,7 @@
 // import { Routes, Route } from "react-router-dom";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
+import Cards from "./Cards";
 
 function LandingPage() {
   return (
@@ -17,7 +18,7 @@ function LandingPage() {
         <div className="max-w-medium bg-white border border-black-200 rounded-lg flex">
           <div className="p-5 w-1/2">
             {" "}
-            {/* Set the width of the text content to half of its parent container */}
+            
             <p className="mb-3 font-normal text-black-700">
               At Noble Reach, we believe in the power of compassion to make a
               difference. Our mission is to create positive change by supporting
@@ -26,7 +27,7 @@ function LandingPage() {
             </p>
           </div>
           <img
-            className="rounded-t-lg w-1/2" // Set the width of the image to half of its parent container
+            className="rounded-t-lg w-1/2" 
             src="/src/assets/dispicon.jpeg"
             alt="charity image"
           />
@@ -42,6 +43,10 @@ function LandingPage() {
             More...
           </a>
         </div>
+      </section>
+
+      <section>
+        <Cards />
       </section>
 
       <Footer />
