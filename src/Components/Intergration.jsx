@@ -1,4 +1,3 @@
-//I just strated coding. I will start pushing from now
 import React, { useState } from 'react';
 import { PayPalScriptProvider } from "@paypal/react-paypal-js";
 import Checkout from './Checkout';
