@@ -1,6 +1,6 @@
 import { useState,useEffect } from "react";
 import ProgramsCard from "./ProgramsCard";
-import './App.css';
+import './Page.css';
 
 function ProgramsPage(){
     const [programs, setPrograms] = useState([]);
