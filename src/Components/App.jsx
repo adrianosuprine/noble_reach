@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import { BrowserRouter } from 'react-router-dom'
-// import './App.css'
+import './App.css'
 import Integration from './Intergration'
 import LandingPage from './LandingPage'
+import Partners from './Partners'
 
 function App() {
   
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
     <Integration/>
+    
    <h1 className='text-blue-700 font-bold  text-center'>Hello Team B.</h1>  
    <h1 className="text-blue-700 font-bold  text-center text-normal">
         Welcome to Tailwind CSS Installation Tutorial.
@@ -54,7 +56,7 @@ function App() {
         </div>
         
         </LandingPage>
-      <Integration/>
+        <Partners/>
     </>
   )
 }
