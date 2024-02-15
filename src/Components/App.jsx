@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { BrowserRouter } from 'react-router-dom'
 // import './App.css'
+import Integration from './Intergration'
 
 function App() {
   
@@ -47,6 +48,7 @@ function App() {
             </a>
           </div>
         </div>
+        <Integration/>
       </div>
 
     </>
