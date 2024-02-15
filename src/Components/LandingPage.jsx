@@ -5,52 +5,52 @@ import Footer from "./Footer";
 function LandingPage() {
   return (
     <div>
-      
-        <div className="hidden sm:ml-6 sm:block">
+      <div className="bg-blue-200">
+      <div className="hidden sm:ml-6 sm:block">
           <div className="navbar">
           <nav>
             <div id="home-icon">
             <a
               href="#"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+              className="text-black-300 hover:bg-black-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
             >
               NOBLE_REACH
             </a>
             </div>
             <a
               href="#"
-              className="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium"
+              className="bg-black-900 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
               aria-current="page"
             >
               HOME
             </a>
             <a
               href="#"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+              className="text-black-300 hover:bg-black-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
             >
               WHY DONATE
             </a>
             <a
               href="#"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+              className="text-black-300 hover:bg-black-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
             >
               CONTACT US
             </a>
             <a
               href="#"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+              className="text-black-300 hover:bg-black-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
             >
               ABOUT US
             </a>
             <a
               href="#"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+              className="text-black-300 hover:bg-black-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
             >
               CALENDAR EVENTS
             </a>
             <a
         href="#"
-        className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+        className="text-black-300 hover:bg-black-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
       >
         ≡
       </a>
@@ -63,16 +63,16 @@ function LandingPage() {
         Welcome to Noble Reach
       </h1>
 
-      <div className="flex justify-center pt-20">
-        <div className="max-w-sm bg-white border border-gray-200 rounded-lg">
+      <div className="flex justify-center pt-100">
+        <div className="max-w-sm bg-white border border-black-200 rounded-lg">
           <img
             className="rounded-t-lg w-full"
-            src="/home/dev-chesire/PROJECTS/noble_reach/gallery/charity.jpeg"
+            src="/gallery/charity.jpeg"
             alt="charity image"
           />
 
           <div className="p-5">
-            <p className="mb-3 font-normal text-gray-700">
+            <p className="mb-3 font-normal text-black-700">
               At Noble Reach, we believe in the power of compassion to make a
               difference. Our mission is to create positive change by supporting
               those in need, fostering hope, and building a community dedicated
@@ -104,6 +104,7 @@ function LandingPage() {
       <div>
       </div>
       <Footer/>
+      </div>
     </div>
   );
 }

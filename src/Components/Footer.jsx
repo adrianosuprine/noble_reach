@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <>
-      <div className="flex justify-center bg-gray-200 py-8">
+      <div className="flex justify-center bg-gray-200 py-8 bg-blue-200">
         <div className="max-w-4xl grid grid-cols-1 gap-6 md:grid-cols-4 mx-auto">
           
           <div className="bg-white shadow-md rounded-lg overflow-hidden">
@@ -32,7 +32,7 @@ function Footer() {
           </div>
 
           
-          <div className="bg-white shadow-md rounded-lg overflow-hidden">
+          <div className="bg-blue- shadow-md rounded-lg overflow-hidden">
             <div className="p-4">
               <h3 className="text-lg font-semibold mb-2">Donation</h3>
               
