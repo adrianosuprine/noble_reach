@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import './App.css'
-import LandingPage from './Components/LandingPage'
+import LandingPage from '..src/LandingPage'
+
 
 function App() {
   
@@ -11,7 +12,7 @@ function App() {
     <>
    <h1>Hello Team B.</h1> 
 
-   <LandingPage/>
+ <LandingPage/>
     </>
   )
 }
