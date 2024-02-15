@@ -1,0 +1,69 @@
+{
+"programs":[
+    {
+      "name": "Clean Water Initiative",
+      "description": "Providing clean and safe drinking water to communities in need.",
+      "photo": "https://salesianmissions.org/wp-content/uploads/2017/03/water_day_salesian_missions_lufubu_zambia_2017-1.jpg"
+    },
+    {
+      "name": "Education for All",
+      "description": "Supporting educational programs to ensure every child has access to quality education.",
+      "photo": "https://www.kooleshshahfoundation.org/wp-content/uploads/2021/11/Education-FOr-All-students.jpg"
+    },
+    {
+      "name": "Food Security Project",
+      "description": "Addressing hunger and malnutrition by providing nutritious food to families.",
+      "photo": "https://www.globalgiving.org/pfil/32744/pict_large.jpg"
+    },
+    {
+      "name": "Healthcare Outreach",
+      "description": "Delivering medical services and supplies to underserved communities.",
+      "photo": "https://www.icrc.org/en/doc/assets/images/photos/gallery/2012-05-16-south-sudan/07-south-sudan-health-l1000143.jpg"
+    },
+    {
+ 
+      "name": "End Femicide",
+      "description": "Raise awareness and support initiatives to end femicide and violence against women.",
+      "photo": "https://lh3.googleusercontent.com/9AQuRpOsl-Z5fdo1AXAErnZHPTO6asYBSXR6JzDyZuw6OtOOiYuM0lsebj5dMGbfji7xPTpbw0C2YEfnTmbWi0J6WZ60Nrm91hzDBYPd010=s750"
+      
+    },
+    
+    {
+     
+      "name": "Natural Disasters",
+      "description": "Support disaster relief efforts and help communities affected by natural disasters.",
+      "photo": "https://www.brookings.edu/wp-content/uploads/2021/10/global_senegal_boy_flood.jpg?resize=1500,1045"
+      
+    },
+    {
+      
+      "name": "Make Her Smile",
+      "description": "Support Girlchild by donating pads and promoting menstrual hygiene.",
+      "image": "https://www.cepcameroon.org/content/library/images/update-make-a-girl-smile---girls-learn-how-to-make-their-own-sanitary-pads---27-04-21-1619531827-image.png",
+      "organisation" : "https://www.cepcameroon.org/"
+    },
+    
+    {
+      "id": 6,
+      "name": "Childrens Home Basic Support",
+      "description": "Support orphaned and vulnerable children by contributing to their well-being and education.",
+      "photo": "images/childrens_home.jpg"
+    
+    },
+    
+    {
+      "id": 8,
+      "name": "FGM Fight",
+      "description": "Join the fight against Female Genital Mutilation (FGM) and advocate for its elimination.",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-Y1JzRldseYdEZy7eoGT9dpcoLoSCS8oN-g&usqp=CAU"
+      
+    },
+    {
+    
+      "name": "Organ Donation",
+      "description": "Raise awareness about organ donation and encourage individuals to become organ donors.",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEVCGh12rK25246qau8Ke7hBzio5oyuBv2aw&usqp=CAU"
+     
+    }
+  ]
+}
