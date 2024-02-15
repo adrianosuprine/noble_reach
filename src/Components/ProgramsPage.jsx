@@ -2,7 +2,7 @@ import { useState,useEffect } from "react";
 import ProgramsCard from "./ProgramsCard";
 import './App.css';
 
-function ProgramsandEventsPage(){
+function ProgramsPage(){
     const [programs, setPrograms] = useState([]);
     let [searchTerm, setSearchTerm] = useState("");
 
@@ -24,13 +24,14 @@ function ProgramsandEventsPage(){
      }
     return (
         <div>
+            
             <h3 className="text-center aspect-auto ">Noble~Reach works with companies and charity organizations to 
                 promote <br/>self-sufficiency and improvements in health, 
                 education, mental health,<br/> reduce cases of gender based violence,
                 female genital mutilation. <br/>
                 We have worked to fund programs that offer creative solutions
                  to meet the basic needs of communities in Africa.</h3>
-                 <h2 className="text-center font-bold">Programs</h2>
+                 <h2 className="text-center font-bold py-2rem">Programs</h2>
                  <input id="search-bar"
                     type="text"
                     placeholder="Search programs..."
@@ -51,4 +52,4 @@ function ProgramsandEventsPage(){
     )
 }
 
-export default ProgramsandEventsPage;
+export default ProgramsPage;
