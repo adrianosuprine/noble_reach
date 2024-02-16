@@ -2,8 +2,8 @@ import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Integration from "./Intergration";
 import LandingPage from "./LandingPage";
-import Navbar from "./Navbar";
 import Footer from "./Footer";
+import Navbar from "./Navbar";
 
 function App() {
   // All routes placed here.

@@ -9,6 +9,7 @@ function LandingPage() {
   return (
     <div>
      
+     
       <div>
         <h1 className="text-blue-700 font-bold  text-normal">
           Welcome to Noble Reach
