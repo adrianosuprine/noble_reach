@@ -1,17 +1,16 @@
 import React, { useState } from 'react';
 
 const CommentsForm = () => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
+  
   const [comment, setComment] = useState('');
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const formData = { name, email, comment };
+    const formData = {  comment };
 
     try {
-      const response = await fetch('http://localhost:3000/comments', {
+      const response = await fetch('src/Components/comments.json', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -30,15 +29,20 @@ const CommentsForm = () => {
     }
 
     // Clear form fields after submission
-    setName('');
-    setEmail('');
+   
     setComment('');
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      {/* Form fields */}
-    </form>
+    <div>
+      <h2>Leave a Comment</h2>
+      <form onSubmit={handleSubmit}>
+        <label>Comment:</label>
+        <textarea value={comment} onChange={(e) => setComment(e.target.value)} />
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
   );
 };
 
