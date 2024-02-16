@@ -52,7 +52,7 @@ function Navbar() {
                 WHY DONATE
               </a>
               <a
-                href="#"
+                href="volunteers"
                 className="text-gray-800 py-2 px-4 block border-b-2 border-transparent hover:border-blue-500 hover:text-blue-500"
               >
                 VOLUNTEER
