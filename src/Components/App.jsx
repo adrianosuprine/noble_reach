@@ -6,8 +6,8 @@ import EventsPage from "./EventsPage";
 import ProgramsPage from "./ProgramsPage";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import CommentsForm from './CommentsForm'
-import VolunteerForm from './VolunteerForm'
+import VolunteerForm from "./VolunteerForm";
+
 function App() {
   // All routes placed here.
 
@@ -19,8 +19,7 @@ function App() {
         <Route path="/programs" element={<ProgramsPage />} />
         <Route path="/donate" element={<Integration />} />
         <Route path="/events" element={<EventsPage />} />
-        <Route path="/comments" element={<CommentsForm />} />
-        <Route path="/volunteer" element={<VolunteerForm />} />
+        <Route path="/volunteers" element={ <VolunteerForm/>} />
       </Routes>
       <Footer />
     </>
