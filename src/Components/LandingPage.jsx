@@ -1,7 +1,4 @@
-// import React from "react";
-// import { Routes, Route } from "react-router-dom";
-
-
+import React from "react";
 import Cards from "./Cards";
 import Gallery from "./Gallery";
 
