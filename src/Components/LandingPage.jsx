@@ -1,13 +1,13 @@
 // import React from "react";
 // import { Routes, Route } from "react-router-dom";
-import Footer from "./Footer";
-import Navbar from "./Navbar";
+
+
 import Cards from "./Cards";
 
 function LandingPage() {
   return (
     <div>
-      <Navbar />
+     
       <div>
         <h1 className="text-blue-700 font-bold  text-normal">
           Welcome to Noble Reach
@@ -49,7 +49,7 @@ function LandingPage() {
         <Cards />
       </section>
 
-      <Footer />
+     
     </div>
   );
 }
