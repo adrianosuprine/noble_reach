@@ -12,7 +12,7 @@ function Navbar() {
       <div className="container mx-auto">
         <div className="flex justify-between items-center py-4 px-6 md:px-0">
           <div className="flex items-center">
-            <a href="#" className="text-xl font-bold text-gray-800">
+            <a href="/" className="text-xl font-bold text-gray-800">
               <i>NOBLE⌒REACH</i>
             </a>
           </div>
@@ -40,7 +40,7 @@ function Navbar() {
           >
             <div className="flex flex-col md:flex-row md:space-x-4">
               <a
-                href="#"
+                href="/"
                 className="text-gray-800 py-2 px-4 block border-b-2 border-transparent hover:border-blue-500 hover:text-blue-500"
               >
                 HOME
