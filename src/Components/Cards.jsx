@@ -1,6 +1,6 @@
 import EndFGM from "/src/assets/no-to-fgm.jpg";
 import WaterProjectImage from "/src/assets/waterprogramme.jpeg";
-import NaturalDisasterImage from "/src/assets/NaturalDisaster-banner.jpg";
+import NaturalDisasterImage from "/src/assets/NaturalDisaster.jpeg";
 import FoodProgramme from "/src/assets/FoodProgramme.jpeg";
 import ChildrensHome from "/src/assets/c-home.jpeg";
 import OrganDonate from '/src/assets/organ.jpeg'
