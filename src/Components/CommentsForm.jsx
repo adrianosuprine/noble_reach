@@ -1,18 +1,17 @@
 import React, { useState } from 'react';
 
-const VolunteerForm = () => {
+const CommentsForm = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
-  const [phoneNumber, setPhoneNumber] = useState('');
-  const [message, setMessage] = useState('');
+  const [comment, setComment] = useState('');
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const formData = { name, email, phoneNumber, message };
+    const formData = { name, email, comment };
 
     try {
-      const response = await fetch('http://localhost:3000/volunteers', {
+      const response = await fetch('http://localhost:3000/comments', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -33,8 +32,7 @@ const VolunteerForm = () => {
     // Clear form fields after submission
     setName('');
     setEmail('');
-    setPhoneNumber('');
-    setMessage('');
+    setComment('');
   };
 
   return (
@@ -44,4 +42,4 @@ const VolunteerForm = () => {
   );
 };
 
-export default VolunteerForm;
+export default CommentsForm;
