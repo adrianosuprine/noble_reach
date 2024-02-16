@@ -1,68 +1,57 @@
-[ 
-    {
-        "id": 1,
-        "title": "END FEMICIDE",
-        "description": "Raise awareness and support initiatives to end femicide and violence against women.",
-        "image": "images/End_Femicide.jpg",
-        "organizations": {
-        }
+{
+    "1": {
+      "title": "END FEMICIDE",
+      "description": "Raise awareness and support initiatives to end femicide and violence against women.",
+      "image": "src/assets/donations.jpg",
+      "organizations": {}
     },
-    {
-        "id": 2,
-        "title": "WATER PROJECT",
-        "description": "Provide clean and safe water to communities in need through sustainable water projects.",
-        "image": "images/water_project.jpg",
-        "organizations": {
-        }
+    "2": {
+      "title": "WATER PROJECT",
+      "description": "Provide clean and safe water to communities in need through sustainable water projects.",
+      "image": "src/assets/drought.jpeg",
+      "organizations": {}
     },
-    {
-        "id": 3,
-        "title": "NATURAL DISASTERS",
-        "description": "Support disaster relief efforts and help communities affected by natural disasters.",
-        "image": "images/Natural-Disasters.jpg",
-        "organizations": {}
+    "3": {
+      "title": "NATURAL DISASTERS",
+      "description": "Support disaster relief efforts and help communities affected by natural disasters.",
+      "image": "src/assets/childhome.jpeg",
+      "organizations": {}
     },
-    {
-        "id": 4,
-        "title": "MAKE HER SMILE",
-        "description": "Support Girlchild by donating pads and promoting menstrual hygiene.",
-        "image": "images/pads_for_girlchild.jpg",
-        "organizations": {}
+    "4": {
+      "title": "MAKE HER SMILE",
+      "description": "Support Girlchild by donating pads and promoting menstrual hygiene.",
+      "image": "src/assets/disabledhome.jpg",
+      "organizations": {}
     },
-    {
-        "id": 5,
-        "title": "FOOD PROGRAMME",
-        "description": "Provide nutritious meals to those facing hunger and food insecurity.",
-        "image": "images/food_programme.jpg",
-        "organizations":{}
-        
+    "5": {
+      "title": "FOOD PROGRAMME",
+      "description": "Provide nutritious meals to those facing hunger and food insecurity.",
+      "image": "src/assets/health.jpg",
+      "organizations": {}
     },
-    {
-        "id": 6,
-        "title": "CHILDREN'S HOME",
-        "description": "Support orphaned and vulnerable children by contributing to their well-being and education.",
-        "image": "images/childrens_home.jpg",
-        "organizations":{}
+    "6": {
+      "title": "CHILDREN'S HOME",
+      "description": "Support orphaned and vulnerable children by contributing to their well-being and education.",
+      "image": "src/assets/waterdrilling.jpeg",
+      "organizations": {}
     },
-    {
-        "id": 7,
-        "title": "EDUCATION FOR ALL",
-        "description": "Promote education for all, ensuring that every child has access to quality education.",
-        "image": "images/education_project.jpg",
-        "organizations":{}
+    "7": {
+      "title": "EDUCATION FOR ALL",
+      "description": "Promote education for all, ensuring that every child has access to quality education.",
+      "image": "src/assets/WFP-emergency-relief.jpg",
+      "organizations": {}
     },
-    {
-        "id": 8,
-        "title": "FGM FIGHT",
-        "description": "Join the fight against Female Genital Mutilation (FGM) and advocate for its elimination.",
-        "image": "images/fgm.jpg",
-        "organizations": {}
+    "8": {
+      "title": "FGM FIGHT",
+      "description": "Join the fight against Female Genital Mutilation (FGM) and advocate for its elimination.",
+      "image": "src/assets/donate.jpeg",
+      "organizations": {}
     },
-    {
-        "id": 9,
-        "title": "ORGAN DONATION",
-        "description": "Raise awareness about organ donation and encourage individuals to become organ donors.",
-        "image": "images/organ-transplant.webp",
-        "organizations": {}
+    "9": {
+      "title": "ORGAN DONATION",
+      "description": "Raise awareness about organ donation and encourage individuals to become organ donors.",
+      "image": "src/assets/Amref.jpg",
+      "organizations": {}
     }
-]
+  }
+  
