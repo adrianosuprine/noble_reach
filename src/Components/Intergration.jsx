@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { PayPalScriptProvider } from "@paypal/react-paypal-js";
 import Checkout from './Checkout';
 
