@@ -23,7 +23,7 @@ function VolunteerForm() {
         e.preventDefault();
         const volunteerData = { ...formData };
 
-        // Store data in db.json using json-server
+        // Store data in volunteers.json using json-server
         fetch('http://localhost:3000/volunteers', {
             method: 'POST',
             headers: {
