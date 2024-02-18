@@ -1,13 +1,13 @@
 
 import { Routes, Route } from "react-router-dom";
 
-import Integration from "./Intergration";
-import LandingPage from "./LandingPage";
-import EventsPage from "./EventsPage";
-import ProgramsPage from "./ProgramsPage";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
-import VolunteerForm from "./VolunteerForm";
+import Integration from "./Components/Intergration";
+import LandingPage from "./Components/LandingPage";
+import EventsPage from "./Components/EventsPage";
+import ProgramsPage from "./Components/ProgramsPage";
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
+import VolunteerForm from "./Components/VolunteerForm";
 
 
 function App() {
